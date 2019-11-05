@@ -16,20 +16,30 @@
 
     <title>BNIA</title>
   </head>
-  <body>
-    <div class="mx-auto w-75 mt-3">
-      <div class="text-center">
-        <img src="../static/bnia-logo.png" title="BNIA Logo" alt="BNIA Logo"/>
-      </div>
-      <div class="text-center mt-3">
-        <p class="green">Here is some green text.</p>
-        <p class="blue">Here is some blue text.</p>
-        <p class="orange">Here is some orange text.</p>
-        <p class="gray">Here is some gray text.</p>
-      </div>
-      <div class="text-center mt-5"> 
-        <button type="button" class="btn btn-lg btn-blue">Create Profile</button>
-        <button type="button" class="btn btn-secondary btn-lg" onClick="skipNav()">Skip</button>
+  <body class="splash">
+    <div class="mx-auto mt-3 splash-container">
+      <!-- Splash Page Header -->
+      <header class="text-center">
+        <img src="../static/bnia_logo_new.png" title="BNIA Logo" alt="BNIA Logo"/>
+        <h2>Vital Signs 2017</h2>
+        <p>pulse of all baltimore neighborhoods</p>
+      </header>
+
+      <!-- Splash Page Content -->
+      <div class="splash-content">
+        <h4 class="m-0">Get Started. Create a Profile.</h4>
+        <p>In 3 easy steps you can:</p>
+          <ul>
+            <li>Save certain Vital Signs topic for quick access. </li>
+            <li>Follow certain neighbourhood easily.</li>
+            <li>Use charts and trends to vizualize your saved data conveniently in one place. </li>
+          </ul>
+
+        <!-- Create Profile Buttons -->
+        <div class="text-center mt-5"> 
+          <a href="step1.html" class="btn btn-lg btn-white">Create Profile</a>
+          <button type="button" class="btn skip-btn mx-auto" onClick="skipNav()">Skip Profile</button>
+        </div>
       </div>
     </div>
 
