@@ -82,7 +82,7 @@ a.nav-link.active:hover {
 }
 
 .tan-body{
-	background-color: rgba(232, 228, 213, 1);
+	background-color: #f3f3f3;
 }
 
 .btn-custom{
@@ -168,6 +168,12 @@ div.scrollmenu {
 .onboarding{
 	position: relative;
 	height: 100vh;
+}
+.onboarding-content form{
+	height: 400px;
+	width: 100%;
+	word-wrap: break-word;
+	overflow: scroll;
 }
 .next{
 	position: absolute;
@@ -322,4 +328,43 @@ div.scrollmenu {
 	  position: absolute;
 	  right: 20px;
 	  top: 20px;
+  }
+  .homepage {
+	  position: relative;
+	  height: 100vh;
+  }
+  .homepage-content .container p{
+	font-size: 0.8em;
+	}
+.homepage-content .container p{
+	font-size: 0.9em;
+	}
+	.subheading{
+		font-weight: 400;
+		font-size: 1.1em;
+		color: gray;
+	}
+
+  /* FOOTER NAV STYLES */
+  .footer-nav{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: gray;
+	border-top: 1px solid lightgray;
+  }
+  .footer-nav a{
+	display: inline-block;
+	padding: 10px;
+	width: 30%;
+	text-align: center;
+	font-size: 1.5em;
+  }
+
+  /* MAIN DATA PAGES */
+header.main-page{
+	  background-color: rgba(0, 125, 182, 1);
+	  padding: 10px;
+	  color: white;
   }
