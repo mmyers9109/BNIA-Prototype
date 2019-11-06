@@ -82,7 +82,7 @@ a.nav-link.active:hover {
 }
 
 .tan-body{
-	background-color: rgba(232, 228, 213, 1);
+	background-color: #f3f3f3;
 }
 
 .btn-custom{
@@ -168,6 +168,12 @@ div.scrollmenu {
 .onboarding{
 	position: relative;
 	height: 100vh;
+}
+.onboarding-content form{
+	height: 400px;
+	width: 100%;
+	word-wrap: break-word;
+	overflow: scroll;
 }
 .next{
 	position: absolute;
@@ -354,4 +360,11 @@ div.scrollmenu {
 	width: 30%;
 	text-align: center;
 	font-size: 1.5em;
+  }
+
+  /* MAIN DATA PAGES */
+header.main-page{
+	  background-color: rgba(0, 125, 182, 1);
+	  padding: 10px;
+	  color: white;
   }
