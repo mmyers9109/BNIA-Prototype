@@ -38,15 +38,15 @@
             <!--First Row-->
             <div class="row">
                     <div class="col-xs topic">
-                        <a id="census" onClick="selectTopic(this.id)"><img src="../static/icon-census.gif"/></a>
+                        <a onClick="selectTopic('census')"><img id="census" src="../static/icon-census.gif"/></a>
                         <p>Census Demographics</p>
                     </div>
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-children.gif"/></a>
+                        <a onClick="selectTopic('children')"><img id="children" src="../static/icon-children.gif"/></a>
                         <p>Children and Family Health</p>
                     </div>
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-crime-safety.gif"/></a>
+                        <a onClick="selectTopic('crime')"><img id="crime" src="../static/icon-crime-safety.gif"/></a>
                         <p>Crime and Safety</p>
                     </div>
             </div> 
@@ -54,15 +54,15 @@
             <!--Second Row-->
             <div class="row">
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-housing.gif"/></a>
+                        <a onClick="selectTopic('housing')"><img id="housing" src="../static/icon-housing.gif"/></a>
                         <p>Housing and Community Development</p>
                     </div>
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-workforce.gif"/></a>
+                        <a onClick="selectTopic('workforce')"><img id="workforce" src="../static/icon-workforce.gif"/></a>
                         <p>Workforce and Economic Development</p>
                     </div>
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-sustainability.gif"/></a>
+                        <a onClick="selectTopic('sustain')"><img id="sustain" src="../static/icon-sustainability.gif"/></a>
                         <p>Sustainability</p>
                     </div>
             </div> 
@@ -70,11 +70,11 @@
             <!-- Third Row -->
             <div class="row">
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-education.gif"/></a>
+                        <a onClick="selectTopic('education')"><img id="education" src="../static/icon-education.gif"/></a>
                         <p>Education and Youth</p>
                     </div>
                     <div class="col-xs topic">
-                        <a onClick="selectTopic()"><img src="../static/icon-arts.gif"/></a>
+                        <a onClick="selectTopic('arts')"><img id="arts" src="../static/icon-arts.gif"/></a>
                         <p>Arts and Culture</p>
                     </div>
             </div> 
@@ -88,6 +88,7 @@
 
     <!-- Optional JavaScript -->
     <script src="../scripts/navigation.js"></script>
+    <script src="../scripts/scripts.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
