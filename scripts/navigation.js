@@ -1,4 +1,4 @@
-function BackButton(e) {
+function backButton(e) {
     e.preventDefault();
     window.history.back();
 };
@@ -18,3 +18,7 @@ function togglePage(id) {
     document.getElementById(active).classList.add("active");
     page.style.display = "block";
 }
+
+function skipNav() {
+     location.href = "data.html";
+} 

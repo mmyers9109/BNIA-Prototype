@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+
+    <!-- Font Awesome Styles -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
@@ -16,36 +19,34 @@
 
     <title>BNIA</title>
   </head>
-  <body class="splash">
-    <div class="mx-auto mt-3 splash-container">
-      <!-- Splash Page Header -->
-      <header class="text-center">
-        <img src="../static/bnia_logo_new.png" title="BNIA Logo" alt="BNIA Logo"/>
-        <h2>Vital Signs 2017</h2>
-        <p>pulse of all baltimore neighborhoods</p>
-      </header>
+  <body>
+    <div class="homepage">
+        <!-- Homepage Header-->
+        <header class="px-3 pt-4 pb-2">
+            <img src="../static/bnia_logo_new.png" height="30px"/>
+            <a href="#" class="bar-menu" onclick="openMenu()">
+                <i class="fa fa-bars fa-lg" style="color:white;"></i>
+            </a>
+            <h5 class="mt-2">Explore Vital Signs 2017</h5>
+        </header>
 
-      <!-- Splash Page Content -->
-      <div class="splash-content">
-        <h4 class="m-0">Get Started. Create a Profile.</h4>
-        <p>In 3 easy steps you can:</p>
-          <ul>
-            <li>Save certain Vital Signs topic for quick access. </li>
-            <li>Follow certain neighbourhood easily.</li>
-            <li>Use charts and trends to vizualize your saved data conveniently in one place. </li>
-          </ul>
-
-        <!-- Create Profile Buttons -->
-        <div class="text-center mt-5"> 
-          <a href="step1.html" class="btn btn-lg btn-white">Create Profile</a>
-          <button type="button" class="btn skip-btn mx-auto" onClick="skipNav()">Skip Profile</button>
+        <!-- Homepage Content -->
+        <div class="mx-auto homepage-content">
+            <ul>
+                <li><a class="py-3" href="#">Neighborhoods <i class="fa fa-chevron-right"></i></a></li>
+                <li><a class="py-3" href="#">Topics <i class="fa fa-chevron-right"></i></a></li>
+                <li><a class="py-3" href="#">Indicators <i class="fa fa-chevron-right"></i></a></li>
+            </ul>
         </div>
-      </div>
+        
+        <!-- Next Button-->
+        <a href="homepage.html" class="btn btn-secondary cancel m-3">Cancel</a>
+        <a href="homepage.html" class="btn btn-blue next m-3">Complete Profile</a>       
     </div>
 
     <!-- Optional JavaScript -->
     <script src="../scripts/navigation.js"></script>
-    
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
