@@ -323,3 +323,35 @@ div.scrollmenu {
 	  right: 20px;
 	  top: 20px;
   }
+  .homepage {
+	  position: relative;
+	  height: 100vh;
+  }
+  .homepage-content .container p{
+	font-size: 0.8em;
+	}
+.homepage-content .container p{
+	font-size: 0.9em;
+	}
+	.subheading{
+		font-weight: 400;
+		font-size: 1.1em;
+		color: gray;
+	}
+
+  /* FOOTER NAV STYLES */
+  .footer-nav{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: gray;
+	border-top: 1px solid lightgray;
+  }
+  .footer-nav a{
+	display: inline-block;
+	padding: 10px;
+	width: 30%;
+	text-align: center;
+	font-size: 1.5em;
+  }
