@@ -223,6 +223,11 @@ div.scrollmenu {
 .topic img{
 	height: 70px;
 }
+.topic img.selected{
+	height: 69px;
+	border-radius: 100%;
+	border: 4px solid rgba(0, 115, 168,1);
+}
 
 /* SELECTING NEIGHBORHOODS */
 .checkboxes{
@@ -284,4 +289,37 @@ div.scrollmenu {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+  }
+
+  /* HOMEPAGE STYLES */
+  .homepage header{
+	  background-color: rgba(0, 115, 168,1);
+	  color: white;
+	  position: relative;
+  }
+  .bar-menu {
+	  position: absolute;
+	  right: 10px;
+	  top: 60px;
+  }
+  .homepage-content ul{
+	  list-style: none;
+	  padding: 0;
+	  margin: 0;
+	  font-size: 1.2em;
+  }
+  .homepage-content ul a{
+	  display: block;
+	  border-bottom: 1px solid lightgray;
+	  color: black;
+	  text-decoration: none;
+	  position: relative;
+	  padding-left: 30px;
+	  font-weight: 500;
+  }
+  .homepage-content a i{
+	  color: rgba(0, 125, 182, 1);
+	  position: absolute;
+	  right: 20px;
+	  top: 20px;
   }
